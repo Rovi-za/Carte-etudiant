@@ -1,0 +1,76 @@
+#carte {
+  width: 600px;            
+  margin: 20px auto;    /* Centrer la carte horizontalement avec une marge verticale */    
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  
+  border-radius: 12px;  /* Coins arrondis */
+  color: white;
+ 
+  box-shadow: 0 0 15px rgba(0,0,0,0.3); /* Ombre autour de la carte */
+  display: block;    
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+
+/* Couleurs selon le statut */
+#carte.interne {
+  background: linear-gradient(135deg, #7c4dff, #d500f9); /* Violet doux → Violet vif 
+  Fond violet dégradé pour les étudiants internes*/
+}
+
+#carte.externe {
+  background: linear-gradient(135deg, #0288d1, #4fc3f7); /* Bleu profond → Bleu clair 
+  Fond bleu dégradé pour les externes.*/
+}
+
+
+
+#carte img.logo {
+  display: block;
+  margin: 0 auto 20px auto; /* top = 0 (géré par padding de la carte), bottom = 20px 
+  /* Centrer le logo et ajouter un espace en bas */
+  height: 80px;
+  width: auto;
+  max-width: 60%;
+  padding-top: 20px;
+}
+
+
+
+
+/* Titre */
+#carte h2 {
+  background-color: black;
+  color: white;
+  padding: 8px 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  
+  
+}
+
+/* Liste */
+#carte ul {
+  padding-bottom: 50px;
+  padding-top: 15px ;
+  text-align: left;
+  width: 100%;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+
+
+
+  
+}
+#carte li {
+  margin-bottom: 3px;
+  font-size: 15px;
+ 
+
+
+}
